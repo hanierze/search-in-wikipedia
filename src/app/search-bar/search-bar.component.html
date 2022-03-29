@@ -1,0 +1,10 @@
+<form (submit)="onSubmit($event)" >
+  <div class="ui category search">
+    <div class="ui icon input">
+      <input class="prompt" type="text" placeholder="Search wikipedia..." (input)="onSearch($event)">
+
+      <i class="search icon"></i>
+    </div>
+    {{search}}
+  </div>
+</form>
